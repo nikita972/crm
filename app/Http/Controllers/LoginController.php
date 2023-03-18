@@ -8,6 +8,7 @@ use App\Models\Login;
 
 class LoginController extends Controller
 {
+    //view pg
     public function index(){
         return view('login');
     }
